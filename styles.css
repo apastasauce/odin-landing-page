@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+}
+
+section {
+    width: auto;
+}
+.links ul {
+    display: flex;
+    gap: 50px;
+}
+.one,
+.two {
+    background: #1F2937;
+    margin: 0;
+    padding: 10px 150px;
+    color: #F9FAF8;
+ 
+}
+
+.two {
+    padding: 50px 200px;
+    background: #eee;
+    color: #1F2937;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-content {
+    display: flex;
+    gap: 50px;
+}
+
+.hero h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.header-content div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-content button {
+    flex-grow: 0;
+    padding: 5px 15px;
+}
+
+.header-img {
+    width: 600px;
+    flex-shrink: 0;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.item {
+    width: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #1F2937;
+    border-radius: 20px;
+}
+
+.quote {
+    text-align: left;
+}
+
+.signup {
+    margin: 0 auto;
+    width: 880px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+button {
+    width: 100px;
+}
+
+.text p {
+    margin-top: -15px;
+}
+
+.footer {
+    background-color: grey;
+    height: 100px;
+}

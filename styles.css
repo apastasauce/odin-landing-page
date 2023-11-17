@@ -1,5 +1,14 @@
+@font-face {
+    src: url(fonts/Aileron-Bold.otf);
+    font-family: aileron;
+}
+@font-face {
+    font-family: aileron-regular;
+    src: url(fonts/Aileron-Regular.otf);
+}
 body {
     margin: 0;
+    font-family: aileron-regular;
 }
 
 section {
@@ -8,6 +17,8 @@ section {
 .links ul {
     display: flex;
     gap: 50px;
+    text-decoration: none;
+    list-style: none;
 }
 .one,
 .two {
@@ -32,33 +43,41 @@ section {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 500;
+    font-family: aileron;
+    font-size: 36px;
 }
 
 .header-content {
     display: flex;
+    align-items: flex-start;
     gap: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .hero h2{
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
-.header-content div {
-    display: flex;
-    flex-wrap: wrap;
+.hero h2 p {
+    margin-top: 0;
 }
 
-.header-content button {
-    flex-grow: 0;
+.hero button {
     padding: 5px 15px;
+    width: 150px;
 }
 
 .header-img {
     width: 600px;
-    flex-shrink: 0;
+
+}
+
+.header-img video {
+    width: 600px;
+    border-radius: 20px;
 }
 
 .content h2 {
@@ -75,17 +94,17 @@ section {
 }
 
 .item {
-    width: 150px;
+    width: 300px;
     display: flex;
     flex-flow: column wrap;
     text-align: center;
 }
 
 .item img {
-    width: 150px;
-    height: 150px;
-    border: 2px solid #1F2937;
+    width: 220px;
+    height: 320px;
     border-radius: 20px;
+    margin-bottom: 16px;
 }
 
 .quote {
